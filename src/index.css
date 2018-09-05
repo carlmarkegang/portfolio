@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 nav {
@@ -23,11 +24,43 @@ nav span {
 nav a span {
     color: #5a5a5a;
     text-align:left;
-    padding: 0 20px 0 15px;
+    padding: 0 60px 0 15px;
     width: auto;
 
 }
 
 nav a span:hover {
     background-color: #dedede;
+}
+
+.projectButton {
+    background-color:#ff7575;
+    height: 50px;
+    line-height: 50px;
+    color:white;
+    margin:5px auto;
+    font-size:22px;
+    text-decoration: none;
+}
+
+
+.projectButton:hover {
+    background-color:#ff5858;
+}
+
+a.projectButtonLink {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+}
+
+.homeContainer {
+    text-align:center;
+    width: 800px;
+    margin:0 auto;
+}
+
+.homeContainer h3 {
+    font-size:25px;
 }
