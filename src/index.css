@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Nanum Gothic', sans-serif;
+    overflow:hidden;
 }
 
 nav {
@@ -63,4 +64,13 @@ a.projectButtonLink {
 
 .homeContainer h3 {
     font-size:25px;
+}
+
+.cursorFollower{
+    width: 0px;
+    height: 0px;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    border-radius:100%;
 }
