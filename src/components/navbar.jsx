@@ -7,9 +7,9 @@ class NavBar extends Component {
             <div>
                 <nav>
                     <span>Logo</span>
-                    <a href="/"><span>Home</span></a>
-                    <a href="/project"><span>Project</span></a>
-                    <a href="/contact"><span>Contact</span></a>
+                    <span className="link" onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Home</span>
+                    <span className="link" onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Project</span>
+                    <span className="link" onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Contact</span>
                 </nav>
             </div>
         );

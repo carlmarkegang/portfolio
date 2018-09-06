@@ -22,15 +22,16 @@ nav span {
     text-align: center;
 }
 
-nav a span {
+nav span.link {
     color: #5a5a5a;
     text-align:left;
     padding: 0 60px 0 15px;
     width: auto;
+    cursor: pointer;
 
 }
 
-nav a span:hover {
+nav span.link:hover {
     background-color: #dedede;
 }
 
@@ -69,8 +70,9 @@ a.projectButtonLink {
 .cursorFollower{
     width: 0px;
     height: 0px;
-    background-color: black;
+    background-color: #efefef;
     position: absolute;
     overflow: hidden;
     border-radius:100%;
+    pointer-events: none;
 }
