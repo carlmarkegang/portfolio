@@ -36,11 +36,11 @@ class App extends Component {
             const backgroundStyle = window.getComputedStyle(e.target, null).getPropertyValue("background-color");
 
             this.cursorPosition = {
-                left: '-1000px',
-                top: '-1000px',
-                width: '5000px',
-                height: '5000px',
-                transition: '1.5s',
+                left: '-2000px',
+                top: '-2000px',
+                width: '10000px',
+                height: '10000px',
+                transition: '2s',
                 backgroundColor: backgroundStyle
             };
             this.setState({x: e.nativeEvent.clientX, y: e.nativeEvent.clientY});
@@ -55,13 +55,13 @@ class App extends Component {
             top: '0px',
             width: '5000px',
             height: '0px',
-            transition: '1s',
+            transition: '2.5s',
             borderRadius: '0'
         };
 
         history.push(newLink);
         this.setState(history);
-        this.timer = setTimeout(this.resetAllowMovement.bind(), 500);
+        this.timer = setTimeout(this.resetAllowMovement.bind(), 1500);
 
     };
 
