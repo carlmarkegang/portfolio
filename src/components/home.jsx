@@ -5,8 +5,8 @@ class Home extends Component {
     render() {
 
         return (
-            <div className="homeContainer">
-                <h3 onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
+            <div className="homeContainer container">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h3>
                 <p>Integer efficitur, ante a ullamcorper cursus, lacus tellus tempor turpis, rhoncus fringilla turpis diam a est.
                     Sed tristique sem tortor, ut posuere lorem vehicula vel. Maecenas laoreet bibendum varius. Morbi maximus rhoncus purus vel congue.
                     Etiam eu leo condimentum, vestibulum ante a, varius turpis. Sed lectus orci, pretium vitae lectus at, volutpat porta lectus.

@@ -3,7 +3,7 @@ import NavBar from './components/navbar';
 import Home from './components/home';
 import Project from './components/project';
 import Contact from './components/contact';
-import {BrowserRouter, Route, Link, Switch, HashRouter, Router} from 'react-router-dom';
+import {BrowserRouter, Route, Link, Switch, Router} from 'react-router-dom';
 import history from './history';
 
 class App extends Component {
@@ -28,8 +28,8 @@ class App extends Component {
     };
 
     onMouseDown = (e) => {
-        if (this.allowTransition === 1 && history.location.pathname !== e.target.getAttribute('link')) {
-
+        if (this.allowTransition === 1 ) {
+            this.onMouseMove(e);
             this.allowTransition = 0;
             this.allowMovement = 0;
             const newLink = e.target.getAttribute('link');
@@ -44,7 +44,7 @@ class App extends Component {
                 backgroundColor: backgroundStyle
             };
             this.setState({x: e.nativeEvent.clientX, y: e.nativeEvent.clientY});
-            this.timer = setTimeout(this.loadContent.bind(backgroundStyle, newLink), 1500);
+            this.timer = setTimeout(this.loadContent.bind(backgroundStyle, newLink), 1000);
 
         }
     };
@@ -61,7 +61,7 @@ class App extends Component {
 
         history.push(newLink);
         this.setState(history);
-        this.timer = setTimeout(this.resetAllowMovement.bind(), 1100);
+        this.timer = setTimeout(this.resetAllowMovement.bind(), 500);
 
     };
 

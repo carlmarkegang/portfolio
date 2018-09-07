@@ -50,6 +50,7 @@ nav span.navLinkGreen:hover {
     margin: 5px auto;
     font-size: 22px;
     text-decoration: none;
+    cursor:pointer;
 }
 
 .projectButton:hover {
@@ -63,13 +64,13 @@ a.projectButtonLink {
     width: 300px;
 }
 
-.homeContainer {
+.container {
     text-align: center;
     width: 800px;
     margin: 0 auto;
 }
 
-.homeContainer h3 {
+.container h3 {
     font-size: 25px;
 }
 
