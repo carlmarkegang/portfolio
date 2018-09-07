@@ -59,9 +59,10 @@ class App extends Component {
             borderRadius:'0'
         };
 
-        this.timer = setTimeout(this.resetAllowMovement.bind(), 1000);
+
         history.push('/' + newLink);
         this.setState(history);
+        this.timer = setTimeout(this.resetAllowMovement.bind(), 1100);
 
     };
 
