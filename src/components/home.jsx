@@ -12,7 +12,7 @@ class Home extends Component {
                     Etiam eu leo condimentum, vestibulum ante a, varius turpis. Sed lectus orci, pretium vitae lectus at, volutpat porta lectus.
                     Nulla facilisi. Suspendisse a arcu erat. Donec nec finibus sapien, ac sagittis enim. Sed rhoncus justo vitae ligula mattis accumsan.
                     Donec arcu lectus, interdum ut congue mattis, tempor nec quam. Proin lacus nisi, facilisis finibus est ac, viverra accumsan eros.</p>
-                    <span className="projectButtonLink"><div className="projectButton" link='project' onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Projects</div>
+                    <span className="projectButtonLink"><div className="projectButton" link='/project' onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown}>Projects</div>
                     </span>
             </div>
         );
