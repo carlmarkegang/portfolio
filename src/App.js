@@ -9,7 +9,7 @@ import history from './history';
 class App extends Component {
 
     state = {x: 0, y: 0};
-    cursorPosition = {left: 0, top: 0 };
+    cursorPosition = {left: 0, top: 0};
     allowMovement = 1;
     allowTransition = 1;
 
@@ -56,7 +56,7 @@ class App extends Component {
             width: '5000px',
             height: '0px',
             transition: '1s',
-            borderRadius:'0'
+            borderRadius: '0'
         };
 
 
@@ -73,7 +73,7 @@ class App extends Component {
             width: '0px',
             height: '0px',
             transition: '1s',
-            borderRadius:'100%'
+            borderRadius: '100%'
         };
         this.allowMovement = 1;
         this.allowTransition = 1;
