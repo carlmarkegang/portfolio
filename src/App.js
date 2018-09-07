@@ -28,7 +28,7 @@ class App extends Component {
     };
 
     onMouseDown = (e) => {
-        if (this.allowTransition === 1 && history.location.pathname != e.target.getAttribute('link')) {
+        if (this.allowTransition === 1 && history.location.pathname !== e.target.getAttribute('link')) {
 
             this.allowTransition = 0;
             this.allowMovement = 0;
@@ -71,7 +71,7 @@ class App extends Component {
             top: '0px',
             width: '0px',
             height: '0px',
-            transition: '1s',
+            transition: '0s',
             borderRadius: '100%'
         };
         this.allowMovement = 1;
