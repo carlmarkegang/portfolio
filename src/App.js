@@ -28,7 +28,7 @@ class App extends Component {
     };
 
     onMouseDown = (e) => {
-        if (this.allowTransition === 1) {
+        if (this.allowTransition === 1 && history.location.pathname != e.target.getAttribute('link')) {
 
             this.allowTransition = 0;
             this.allowMovement = 0;
@@ -58,7 +58,6 @@ class App extends Component {
             transition: '1s',
             borderRadius: '0'
         };
-
 
         history.push('/' + newLink);
         this.setState(history);
