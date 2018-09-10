@@ -61,7 +61,7 @@ class App extends Component {
 
         history.push(newLink);
         this.setState(history);
-        this.timer = setTimeout(this.resetAllowMovement.bind(), 1500);
+        this.timer = setTimeout(this.resetAllowMovement.bind(), 1000);
 
     };
 

@@ -1,7 +1,7 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
     overflow: hidden;
 }
 
@@ -9,6 +9,7 @@ nav {
     background-color: #efefef;
     width: 100%;
     line-height: 50px;
+    padding-left:20px;
 }
 
 nav span {
@@ -30,16 +31,8 @@ nav span.link {
     cursor: pointer;
 }
 
-nav span.navLinkRed:hover {
-    background-color: #ff9797;
-}
-
-nav span.navLinkBlue:hover {
-    background-color: #b5e9ff;
-}
-
-nav span.navLinkGreen:hover {
-    background-color: #d6f7a2;
+nav span.navLinkGrey:hover {
+    background-color: #e3e3e3;
 }
 
 .projectButton {
@@ -51,6 +44,7 @@ nav span.navLinkGreen:hover {
     font-size: 22px;
     text-decoration: none;
     cursor:pointer;
+    width:80%;
 }
 
 .projectButton:hover {
@@ -75,11 +69,51 @@ a.projectButtonLink {
 }
 
 .cursorFollower {
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     background-color: #efefef;
     position: absolute;
     overflow: hidden;
     border-radius: 100%;
     pointer-events: none;
+}
+
+.portfolioBlock{
+    padding: 20px;
+    text-align:left;
+    #background-color: #efefef;
+    #box-shadow: 1px 1px 1px #b5b5b5;
+}
+
+.portfolioBlockImage{
+    display: inline-block;
+}
+
+.portfolioBlockImage img{
+    width: 230px;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .container {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav span.link{
+        display: block;
+        height:auto;
+    }
+
+    nav {
+        padding-left:0;
+    }
 }

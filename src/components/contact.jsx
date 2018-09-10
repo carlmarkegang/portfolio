@@ -6,7 +6,11 @@ class Contact extends Component {
 
         return (
             <div className='container'>
-                <h3>Contact</h3>
+                <h3>Kontakt</h3>
+                <div className="contact">
+                    <p>carl@markegang.se</p>
+                    <p>070-204 64 16</p>
+                </div>
             </div>
         );
 
