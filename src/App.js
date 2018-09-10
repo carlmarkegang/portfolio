@@ -64,8 +64,8 @@ class App extends Component {
 
         this.allowMovement = 1;
         this.allowTransition = 1;
-        this.setState(this.cursorPosition);
         this.timer = setTimeout(this.revealContent.bind(), 2000);
+        this.setState(this.cursorPosition);
 
     };
 
