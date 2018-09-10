@@ -55,17 +55,21 @@ class App extends Component {
             top: '0px',
             width: '5000px',
             height: '0px',
-            transition: '2.5s',
+            transition: '2s',
             borderRadius: '0'
         };
 
         history.push(newLink);
         this.setState(history);
-        this.timer = setTimeout(this.resetAllowMovement.bind(), 1000);
+
+        this.allowMovement = 1;
+        this.allowTransition = 1;
+        this.setState(this.cursorPosition);
+        this.timer = setTimeout(this.revealContent.bind(), 2000);
 
     };
 
-    resetAllowMovement = () => {
+    revealContent = () => {
         this.cursorPosition = {
             left: '0px',
             top: '0px',
@@ -74,9 +78,6 @@ class App extends Component {
             transition: '0s',
             borderRadius: '100%'
         };
-        this.allowMovement = 1;
-        this.allowTransition = 1;
-        this.setState(this.cursorPosition)
     };
 
     render() {
