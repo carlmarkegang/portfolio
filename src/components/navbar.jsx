@@ -9,7 +9,7 @@ class NavBar extends Component {
                     <span className="link navLinkGrey" link='/' onMouseMove={this.props.onMouseMove}
                           onMouseDown={this.props.onMouseDown}>Hem</span>
                     <span className="link navLinkGrey" link='/project' onMouseMove={this.props.onMouseMove}
-                          onMouseDown={this.props.onMouseDown}>Project och erfarenheter</span>
+                          onMouseDown={this.props.onMouseDown}>Projekt och erfarenheter</span>
                     <span className="link navLinkGrey" link='/contact' onMouseMove={this.props.onMouseMove}
                           onMouseDown={this.props.onMouseDown}>Kontakt</span>
                 </nav>

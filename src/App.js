@@ -83,7 +83,7 @@ class App extends Component {
     render() {
 
         return (
-            <div>
+            <div className="appContainer">
                 <NavBar onMouseMove={this.onMouseMove.bind(this)} onMouseDown={this.onMouseDown.bind(this)}/>
 
 

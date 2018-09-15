@@ -2,6 +2,25 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Mukta', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: #8e8e8e;
+}
+
+a {
+    color: #8e8e8e;
+}
+
+.appContainer {
     overflow: hidden;
 }
 
@@ -9,7 +28,17 @@ nav {
     background-color: #efefef;
     width: 100%;
     line-height: 50px;
-    padding-left:20px;
+}
+
+.container {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container h3 {
+    font-size: 25px;
 }
 
 nav span {
@@ -21,6 +50,12 @@ nav span {
     display: inline-block;
     padding: 0;
     text-align: center;
+    margin-left: 20px;
+}
+
+.portfolioBlockText h3 {
+    color: #4a4a4a;
+    margin: 0;
 }
 
 nav span.link {
@@ -43,8 +78,8 @@ nav span.navLinkGrey:hover {
     margin: 5px auto;
     font-size: 22px;
     text-decoration: none;
-    cursor:pointer;
-    width:80%;
+    cursor: pointer;
+    width: 80%;
 }
 
 .projectButton:hover {
@@ -58,62 +93,59 @@ a.projectButtonLink {
     width: 300px;
 }
 
-.container {
-    text-align: center;
-    width: 800px;
-    margin: 0 auto;
-}
-
-.container h3 {
-    font-size: 25px;
-}
-
 .cursorFollower {
     width: 0;
     height: 0;
     background-color: #efefef;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     border-radius: 100%;
     pointer-events: none;
 }
 
-.portfolioBlock{
-    padding: 20px;
-    text-align:left;
-    #background-color: #efefef;
-    #box-shadow: 1px 1px 1px #b5b5b5;
+.portfolioBlock {
+    text-align: left;
 }
 
-.portfolioBlockImage{
-    display: inline-block;
+.portfolioBlock td {
+    padding: 10px;
 }
 
-.portfolioBlockImage img{
-    width: 230px;
+.portfolioBlockImage img {
+    width: 150px;
 }
 
-p{
-    font-family: 'Open Sans', sans-serif;
+.portfolioBlockTechs span {
+    background-color: #ff7575;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.portfolioBlockSeperator {
+    height: 60px;
 }
 
 @media only screen and (max-width: 800px) {
 
     .container {
         text-align: center;
-        width: 80%;
+        width: 95%;
         margin: 0 auto;
     }
 
+    td.portfolioBlockImage {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-    nav span.link{
+    nav span.link {
         display: block;
-        height:auto;
+        height: auto;
+        margin-left: 0px;
     }
 
-    nav {
-        padding-left:0;
-    }
+
 }

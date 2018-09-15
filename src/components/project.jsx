@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import ProjectBlocks from './portfolio/projectblocks';
+import ProjectContainer from './portfolio/projectcontainer';
 
 class Project extends Component {
 
@@ -8,7 +8,7 @@ class Project extends Component {
         return (
             <div className='container'>
                 <h3>Projekt och Erfarenheter</h3>
-                <ProjectBlocks />
+                <ProjectContainer />
             </div>
         );
 
