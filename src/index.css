@@ -8,11 +8,11 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-.portfolioBlockText p:first-child{
+.portfolioBlockText p:first-child {
     margin-top: 0;
 }
 
-.portfolioBlockText p:first-of-type{
+.portfolioBlockText p:first-of-type {
     margin-top: 0;
 }
 
@@ -29,7 +29,7 @@ a {
 }
 
 table {
-    border-collapse:separate;
+    border-collapse: separate;
     border-spacing: 0 30px;
 }
 
@@ -133,11 +133,21 @@ a.projectButtonLink {
     width: 150px;
 }
 
+.contactImages {
+    width: 50px;
+    opacity: 0.6;
+    padding: 0 2px;
+}
+
+.contactImages:hover {
+    opacity: 0.9;
+}
+
 .portfolioBlockTechs span {
     background-color: #ff7575;
     border-radius: 5px;
     margin: 1px 1px;
-    display:inline-block;
+    display: inline-block;
     padding: 2px 5px;
     color: white;
 }
@@ -161,6 +171,5 @@ a.projectButtonLink {
         height: auto;
         margin-left: 0px;
     }
-
 
 }
