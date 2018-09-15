@@ -28,6 +28,11 @@ a {
     color: #8e8e8e;
 }
 
+table {
+    border-collapse:separate;
+    border-spacing: 0 30px;
+}
+
 .appContainer {
     overflow: hidden;
 }
@@ -131,13 +136,10 @@ a.projectButtonLink {
 .portfolioBlockTechs span {
     background-color: #ff7575;
     border-radius: 5px;
-    margin: 3px;
+    margin: 1px 1px;
+    display:inline-block;
     padding: 2px 5px;
     color: white;
-}
-
-.portfolioBlockSeperator {
-    height: 60px;
 }
 
 @media only screen and (max-width: 800px) {

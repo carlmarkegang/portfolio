@@ -12,11 +12,11 @@ class Pizzeria extends Component {
                     <td className="portfolioBlockText">
                         <h3 className="portfolioBlockTextHeader">Gridtorps Pizzeria</h3>
                         <h4 className="portfolioBlockTextSubHeader">Frilans - 2015</h4>
-                        <p>En sida skapad för Grindtorps pizzeria med adminverktyg med fokus på användarvänlighet.</p>
+                        <p>En sida skapad för Grindtorps pizzeria med adminverktyg med fokus på användarvänlighet. (Inte längre i drift)</p>
                         <p><a href='#'>Läs mer</a></p>
                         <div className="portfolioBlockTechs">
                             <span style={{backgroundColor: '#3970d6'}}>PHP</span>
-                            <span style={{backgroundColor: '#c000ff'}}>JavaScript</span>
+                            <span style={{backgroundColor: '#be68da'}}>JavaScript</span>
                         </div>
                     </td>
                 </tr>

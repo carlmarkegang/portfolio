@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import Linas from './portfolioBlocks/linas';
 import Pizzeria from './portfolioBlocks/pizzeria';
 import Tetris from './portfolioBlocks/tetris';
-import PrevPortfolio from './portfolioBlocks/prevportfolio';
+import Portfolio from './portfolioBlocks/portfolio';
+import Hemag from './portfolioBlocks/hemag';
 
 class ProjectContainer extends Component {
     render() {
@@ -10,13 +11,13 @@ class ProjectContainer extends Component {
         return (
             <React.Fragment>
                 <table>
-                    <Linas/>
-                    <div className="portfolioBlockSeperator"></div>
-                    <Pizzeria />
-                    <div className="portfolioBlockSeperator"></div>
-                    <Tetris />
-                    <div className="portfolioBlockSeperator"></div>
-                    <PrevPortfolio />
+                    <tbody>
+                        <Linas/>
+                        <Pizzeria />
+                        <Tetris />
+                        <Portfolio />
+                        <Hemag />
+                    </tbody>
                 </table>
             </React.Fragment>
         );
