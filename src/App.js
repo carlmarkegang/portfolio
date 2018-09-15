@@ -3,7 +3,7 @@ import NavBar from './components/navbar';
 import Home from './components/home';
 import Project from './components/project';
 import Contact from './components/contact';
-import {BrowserRouter, Route, Link, Switch, Router} from 'react-router-dom';
+import {Route, Router} from 'react-router-dom';
 import history from './history';
 
 class App extends Component {

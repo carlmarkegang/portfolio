@@ -8,6 +8,14 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
+.portfolioBlockText p:first-child{
+    margin-top: 0;
+}
+
+.portfolioBlockText p:first-of-type{
+    margin-top: 0;
+}
+
 a:hover {
     color: black;
 }
@@ -53,8 +61,13 @@ nav span {
     margin-left: 20px;
 }
 
-.portfolioBlockText h3 {
+.portfolioBlockTextHeader {
     color: #4a4a4a;
+    margin: 0;
+}
+
+.portfolioBlockTextSubHeader {
+    color: #757575;
     margin: 0;
 }
 
