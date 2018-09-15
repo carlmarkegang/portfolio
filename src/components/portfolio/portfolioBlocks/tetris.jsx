@@ -1,21 +1,21 @@
 import React, {Component} from 'react';
 
-class Pizzeria extends Component {
+class Tetris extends Component {
     render() {
 
         return (
             <React.Fragment>
                 <tr className="portfolioBlock">
                     <td className="portfolioBlockImage">
-                        <img src='/img/icon2.png' alt=""/>
+                        <img src="/img/icon3.png" alt=""/>
                     </td>
                     <td className="portfolioBlockText">
-                        <h3 className="portfolioBlockTextHeader">Gridtorps Pizzeria</h3>
-                        <h4 className="portfolioBlockTextSubHeader">Frilans - 2015</h4>
-                        <p>En sida skapad för Grindtorps pizzeria med adminverktyg med fokus på användarvänlighet.</p>
-                        <p><a href='#'>Läs mer</a></p>
+                        <h3 className="portfolioBlockTextHeader">Tetris</h3>
+                        <h4 className="portfolioBlockTextSubHeader">Projekt</h4>
+                        <p>Tetris-spel skrivet i Javascript</p>
+                        <p><a href="https://github.com/carlmarkegang/canvas-tetris">Spela</a></p>
                         <div className="portfolioBlockTechs">
-                            <span style={{backgroundColor: '#3970d6'}}>PHP</span>
+                            <span style={{backgroundColor: '#acdf4d'}}>Canvas</span>
                             <span style={{backgroundColor: '#c000ff'}}>JavaScript</span>
                         </div>
                     </td>
@@ -27,4 +27,4 @@ class Pizzeria extends Component {
 
 };
 
-export default Pizzeria;
+export default Tetris;
