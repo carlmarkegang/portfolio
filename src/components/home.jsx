@@ -7,7 +7,7 @@ class Home extends Component {
         return (
             <div className="homeContainer container">
                 <h3>Carl Markegång</h3>
-                <p>Lösningsorienterad och ansvarstagande person på 24 år.</p>
+                <p>Lösningsorienterad person på 24 år.</p>
 
                 <p>Just nu bosatt i Kalhäll. Några av mina intressen är natur, PC-spel..</p>
                 <span className="projectButtonLink"><div className="projectButton" link='/project'
