@@ -110,6 +110,28 @@ a.projectButtonLink {
     text-decoration: none;
     width: 300px;
 }
+.contactButton {
+    background-color: #77ad6c;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    margin: 5px auto;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80%;
+}
+
+.contactButton:hover {
+    background-color: #81be76;
+}
+
+a.contactButtonLink {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+}
 
 .cursorFollower {
     width: 0;

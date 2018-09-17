@@ -19,6 +19,13 @@ class ProjectContainer extends Component {
                         <Hemag />
                     </tbody>
                 </table>
+                <br />
+                <span className="contactButtonLink">
+                    <div className="contactButton" link='/contact'
+                    onMouseMove={this.props.onMouseMove}
+                    onMouseDown={this.props.onMouseDown}>Kontakta mig</div>
+                    </span>
+                <br />
             </React.Fragment>
         );
 

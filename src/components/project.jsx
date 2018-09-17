@@ -8,7 +8,7 @@ class Project extends Component {
         return (
             <div className='container'>
                 <h3>Projekt och Erfarenheter</h3>
-                <ProjectContainer />
+                <ProjectContainer onMouseMove={this.props.onMouseMove} onMouseDown={this.props.onMouseDown} />
             </div>
         );
 
