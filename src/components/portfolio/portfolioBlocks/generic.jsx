@@ -28,7 +28,7 @@ const infoBlocks = [
         icon: '/img/icon2.png',
         description: [
             <p>En sida skapad för Grindtorps pizzeria med adminverktyg med fokus på användarvänlighet. (Inte längre i drift)</p>,
-            <p><a href="#">Läs mer</a></p>
+            <p>Finns lite mer om läsa om sidan på min <a href="http://www.markegang.se/archive/portfolio.html#restaurang">före detta portfolio</a></p>
         ],
         techTags: [
             'PHP',
