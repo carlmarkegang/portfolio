@@ -18,7 +18,7 @@ class Portfolio extends Component {
                         <div className="portfolioBlockTechs">
                             <span style={{backgroundColor: '#c3bf29'}}>React</span> -
                             <span style={{backgroundColor: '#3e8392'}}>jQuery</span>
-                            <span style={{backgroundColor: '#be68da'}}>JavaScript</span>
+                            <span style={{backgroundColor: '#9062a7'}}>JavaScript</span>
                         </div>
                     </td>
                 </tr>

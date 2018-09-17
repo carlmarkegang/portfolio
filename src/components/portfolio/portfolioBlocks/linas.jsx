@@ -18,12 +18,13 @@ class Linas extends Component {
                             <p>Årets Anstäld 2017</p>
                             <div className="portfolioBlockTechs">
                                 <span style={{backgroundColor: '#3970d6'}}>PHP</span>
-                                <span style={{backgroundColor: '#037703'}}>Symfony</span>
+                                <span style={{backgroundColor: '#4f9263'}}>Symfony</span>
                                 <span style={{backgroundColor: '#020202'}}>Shell</span>
                                 <span style={{backgroundColor: '#f39e02'}}>MySQL</span>
-                                <span style={{backgroundColor: '#be68da'}}>JavaScript</span>
+                                <span style={{backgroundColor: '#9062a7'}}>JavaScript</span>
                                 <span style={{backgroundColor: '#3e8392'}}>jQuery</span>
-                                <span style={{backgroundColor: '#ea1414'}}>Docker</span>
+                                <span style={{backgroundColor: '#ea604e'}}>Docker</span>
+                                <span style={{backgroundColor: '#8f99a3'}}>WordPress</span>
                             </div>
                         </td>
                     </tr>

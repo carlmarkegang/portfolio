@@ -16,7 +16,7 @@ class Tetris extends Component {
                         <p><a href="https://github.com/carlmarkegang/canvas-tetris">Spela</a></p>
                         <div className="portfolioBlockTechs">
                             <span style={{backgroundColor: '#acdf4d'}}>Canvas</span>
-                            <span style={{backgroundColor: '#be68da'}}>JavaScript</span>
+                            <span style={{backgroundColor: '#9062a7'}}>JavaScript</span>
                         </div>
                     </td>
                 </tr>

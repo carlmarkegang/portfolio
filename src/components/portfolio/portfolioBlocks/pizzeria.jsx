@@ -16,7 +16,7 @@ class Pizzeria extends Component {
                         <p><a href='#'>Läs mer</a></p>
                         <div className="portfolioBlockTechs">
                             <span style={{backgroundColor: '#3970d6'}}>PHP</span>
-                            <span style={{backgroundColor: '#be68da'}}>JavaScript</span>
+                            <span style={{backgroundColor: '#9062a7'}}>JavaScript</span>
                         </div>
                     </td>
                 </tr>

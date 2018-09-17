@@ -14,7 +14,7 @@ class Hemag extends Component {
                         <h4 className="portfolioBlockTextSubHeader">Slutprojekt </h4>
                         <p>Som slutprojekt och grupparbete på utbildningen Diplomerad Webbmaster gjorde vi en sida till en hantverkarfirma</p>
                         <div className="portfolioBlockTechs">
-                            <span style={{backgroundColor: '#8661ce'}}>Joomla</span>
+                            <span style={{backgroundColor: '#a05434'}}>Joomla</span>
                         </div>
                     </td>
                 </tr>
