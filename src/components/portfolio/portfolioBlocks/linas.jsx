@@ -11,7 +11,7 @@ class Linas extends Component {
                         </td>
                         <td className="portfolioBlockText">
                             <h3 className="portfolioBlockTextHeader">Linas Matkasse</h3>
-                            <h4 className="portfolioBlockTextSubHeader">Anställd 2016 - nu</h4>
+                            <h4 className="portfolioBlockTextSubHeader">Anställd - 2016 - nu</h4>
                             <p>Framför allt ansvarig/backend-utvecklare för Linas Matkasses interna business-system.
                                 Men även engagerad i frontendarbete för kundriktade sidor, teknisk support m.m.</p>
 
