@@ -66,6 +66,20 @@ const infoBlocks = [
     },
 
     {
+        title: 'Forum',
+        subTitle: 'Projekt',
+        icon: '/img/icon6.png',
+        description: [
+            <p>Ett forum byggt med MVC-modellen i åtanke.</p>,
+            <p><a href="https://github.com/carlmarkegang/practise-api">Källkod</a></p>
+        ],
+        techTags: [
+            'PHP',
+            'Symfony',
+        ]
+    },
+
+    {
         title: 'Svenska Hemag',
         subTitle: 'Slutprojekt',
         icon: '/img/icon5.png',

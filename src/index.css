@@ -191,7 +191,8 @@ a.contactButtonLink {
     nav span.link {
         display: block;
         height: auto;
-        margin-left: 0px;
+        margin-left: 0;
+        font-size:18px;
     }
 
 }
