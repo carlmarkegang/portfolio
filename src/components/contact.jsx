@@ -12,7 +12,7 @@ class Contact extends Component {
                     <p>070-204 64 16</p>
                     <p>Eller ett meddelande på LinkedIn</p>
                     <p>
-                        <a href="https://github.com/linasmatkasse">
+                        <a href="https://github.com/carlmarkegang">
                             <img src="/img/github.png" className="contactImages" alt="github"/>
                         </a>
                         <a href="https://www.linkedin.com/in/carl-markeg%C3%A5ng-b41971101/">
