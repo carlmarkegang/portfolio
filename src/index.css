@@ -54,6 +54,19 @@ nav {
     font-size: 25px;
 }
 
+.homeMeImage{
+    width:180px;
+    border-radius:100%;
+}
+
+.homeHeader {
+    margin-bottom:5px;
+}
+
+.homeIntroduction{
+    margin-top:5px;
+}
+
 nav span {
     background-color: transparent;
     width: 200px;
