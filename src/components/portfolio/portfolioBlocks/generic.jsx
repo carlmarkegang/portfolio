@@ -6,7 +6,7 @@ const infoBlocks = [
         subTitle: 'Anställd - 2016 - nu',
         icon: '/img/icon1.png',
         description: [
-            <p>Framför allt ansvarig/backend-utvecklare för Linas Matkasses interna business-system.Men även engagerad i
+            <p>Framför allt backend-utvecklare för Linas Matkasses interna business-system. Men även engagerad i
                 frontendarbete för kundriktade sidor, teknisk support m.m.</p>,
             <p>Årets Anstäld 2017</p>
         ],
