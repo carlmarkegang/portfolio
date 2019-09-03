@@ -2,8 +2,25 @@ import React, {Component} from 'react';
 
 const infoBlocks = [
     {
+        title: 'InfoSolutions',
+        subTitle: 'Anställd - 2019 - nu',
+        icon: '/img/infosolutions.png',
+        description: [
+            <p>Utvecklare hos InfoSolutions</p>
+        ],
+        techTags: [
+            'ASP.NET',
+            'C#',
+            'VB',
+            'MSSQL',
+            'JavaScript',
+            'jQuery',
+            'WordPress'
+        ]
+    },
+    {
         title: 'Linas Matkasse',
-        subTitle: 'Anställd - 2016 - nu',
+        subTitle: 'Anställd - 2016 - 2018',
         icon: '/img/icon1.png',
         description: [
             <p>Framför allt backend-utvecklare för Linas Matkasses interna business-system. Men även engagerad i
@@ -103,7 +120,11 @@ const techTags = {
     WordPress: '#8f99a3',
     Canvas: '#acdf4d',
     React: '#c3bf29',
-    Joomla: '#a05434'
+    Joomla: '#a05434',
+    'ASP.NET': '#62a7a0',
+    'C#': '#d02424',
+    VB: '#768424',
+    MSSQL: '#1a866c'
 };
 
 
