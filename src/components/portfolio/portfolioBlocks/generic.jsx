@@ -2,8 +2,19 @@ import React, {Component} from 'react';
 
 const infoBlocks = [
     {
+        title: 'DPJ Workspace',
+        subTitle: 'Anställd - 2022 - nu',
+        icon: '/img/dpj.png',
+        description: [
+            <p>Fullstack utvecklare hos DPJ Workspace</p>
+        ],
+        techTags: [
+            'PHP'
+        ]
+    },
+    {
         title: 'InfoSolutions',
-        subTitle: 'Anställd - 2019 - nu',
+        subTitle: 'Anställd - 2019 - 2022',
         icon: '/img/infosolutions.png',
         description: [
             <p>Utvecklare hos InfoSolutions</p>
