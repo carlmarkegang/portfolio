@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 const infoBlocks = [
     {
@@ -10,13 +10,13 @@ const infoBlocks = [
         ],
         techTags: [
             'PHP',
-			'PrestaShop',
-			'JavaScript',
+            'PrestaShop',
+            'JavaScript',
             'jQuery',
-			'Sass',
+            'Sass',
         ]
     },
-	{
+    {
         title: 'Github-Projekt',
         subTitle: 'Projekt',
         icon: '/img/github.png',
@@ -86,7 +86,7 @@ const infoBlocks = [
         description: [
             <p>Sidan du är på just nu är skriven i React med några roliga custom-skrivna transitions. :) <a href="https://github.com/carlmarkegang/portfolio">Källkod</a></p>,
             <p>Du kan även besöka min <a href="http://www.markegang.se/archive/portfolio.html">föregående portfolio-sida</a>,
-            som är skriven i Javascript och jQuery. Här finns några fler projekt jag inte har redovisat här.</p>
+                som är skriven i Javascript och jQuery. Här finns några fler projekt jag inte har redovisat här.</p>
         ],
         techTags: [
             'React',
@@ -135,7 +135,7 @@ class GenericProjectBlock extends Component {
                         return (
                             <tr className="portfolioBlock" key={d.title}>
                                 <td className="portfolioBlockImage">
-                                    <img src={d.icon} alt=""/>
+                                    <img src={d.icon} alt="" />
                                 </td>
                                 <td className="portfolioBlockText">
                                     <h3 className="portfolioBlockTextHeader">{d.title}</h3>
@@ -143,13 +143,13 @@ class GenericProjectBlock extends Component {
                                     {d.description}
 
                                     <div className="portfolioBlockTechs">
-                                            {
-                                                d.techTags.map(function (tag) {
-                                                    return (
-                                                        <span style={{backgroundColor: techTags[tag]}}>{tag}</span>
-                                                    )
-                                                })
-                                            }
+                                        {
+                                            d.techTags.map(function (tag) {
+                                                return (
+                                                    <span style={{ backgroundColor: techTags[tag] }}>{tag}</span>
+                                                )
+                                            })
+                                        }
                                     </div>
                                 </td>
                             </tr>
