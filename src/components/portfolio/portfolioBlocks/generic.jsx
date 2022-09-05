@@ -122,7 +122,10 @@ const techTags = {
     'ASP.NET': '#62a7a0',
     'C#': '#d02424',
     VB: '#768424',
-    MSSQL: '#1a866c'
+    MSSQL: '#1a866c',
+    GitHub: '#020202',
+    PrestaShop: '#8f99a3',
+    Sass: '#e766d5',
 };
 
 
