@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 const infoBlocks = [
     {
@@ -9,7 +9,11 @@ const infoBlocks = [
             <p>Fullstack utvecklare hos DPJ Workspace</p>
         ],
         techTags: [
-            'PHP'
+            'PHP',
+            'PrestaShop',
+            'JavaScript',
+            'jQuery',
+            'Sass',
         ]
     },
     {
@@ -49,7 +53,16 @@ const infoBlocks = [
             'WordPress'
         ]
     },
-
+    {
+        title: 'Personliga projekt på GitHub',
+        subTitle: 'Projekt',
+        icon: '/img/github.png',
+        description: [
+            <p>Jag håller ofta på med olika egna kod-projekt på fritiden. <br />
+                <a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>,
+        ],
+        techTags: []
+    },
     {
         title: 'Gridtorps Pizzeria',
         subTitle: 'Frilans - 2015',
@@ -64,27 +77,13 @@ const infoBlocks = [
         ]
     },
     {
-        title: 'Tetris',
-        subTitle: 'Projekt',
-        icon: '/img/icon3.png',
-        description: [
-            <p>Tetris-spel skrivet i Javascript</p>,
-            <p><a href="https://github.com/carlmarkegang/canvas-tetris">Spela</a></p>
-        ],
-        techTags: [
-            'Canvas',
-            'JavaScript',
-        ]
-    },
-
-    {
         title: 'Markegang.se',
         subTitle: 'Portfolio',
         icon: '/img/icon4.png',
         description: [
             <p>Sidan du är på just nu är skriven i React med några roliga custom-skrivna transitions. :) <a href="https://github.com/carlmarkegang/portfolio">Källkod</a></p>,
             <p>Du kan även besöka min <a href="http://www.markegang.se/archive/portfolio.html">föregående portfolio-sida</a>,
-            som är skriven i Javascript och jQuery. Här finns några fler projekt jag inte har redovisat här.</p>
+                som är skriven i Javascript och jQuery. Här finns några fler projekt jag inte har redovisat här.</p>
         ],
         techTags: [
             'React',
@@ -92,21 +91,6 @@ const infoBlocks = [
             'JavaScript'
         ]
     },
-
-    {
-        title: 'Forum',
-        subTitle: 'Projekt',
-        icon: '/img/icon5.png',
-        description: [
-            <p>Ett forum byggt med MVC-modellen i åtanke.</p>,
-            <p><a href="https://github.com/carlmarkegang/practise-api">Källkod</a></p>
-        ],
-        techTags: [
-            'PHP',
-            'Symfony',
-        ]
-    },
-
     {
         title: 'Svenska Hemag',
         subTitle: 'Slutprojekt',
@@ -135,7 +119,10 @@ const techTags = {
     'ASP.NET': '#62a7a0',
     'C#': '#d02424',
     VB: '#768424',
-    MSSQL: '#1a866c'
+    MSSQL: '#1a866c',
+    GitHub: '#020202',
+    PrestaShop: '#8f99a3',
+    Sass: '#e766d5',
 };
 
 
@@ -148,7 +135,7 @@ class GenericProjectBlock extends Component {
                         return (
                             <tr className="portfolioBlock" key={d.title}>
                                 <td className="portfolioBlockImage">
-                                    <img src={d.icon} alt=""/>
+                                    <img src={d.icon} alt="" />
                                 </td>
                                 <td className="portfolioBlockText">
                                     <h3 className="portfolioBlockTextHeader">{d.title}</h3>
@@ -156,13 +143,13 @@ class GenericProjectBlock extends Component {
                                     {d.description}
 
                                     <div className="portfolioBlockTechs">
-                                            {
-                                                d.techTags.map(function (tag) {
-                                                    return (
-                                                        <span style={{backgroundColor: techTags[tag]}}>{tag}</span>
-                                                    )
-                                                })
-                                            }
+                                        {
+                                            d.techTags.map(function (tag) {
+                                                return (
+                                                    <span style={{ backgroundColor: techTags[tag] }}>{tag}</span>
+                                                )
+                                            })
+                                        }
                                     </div>
                                 </td>
                             </tr>
