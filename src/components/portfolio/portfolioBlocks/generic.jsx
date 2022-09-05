@@ -54,16 +54,14 @@ const infoBlocks = [
         ]
     },
     {
-        title: 'Github-Projekt',
+        title: 'Personliga projekt på GitHub',
         subTitle: 'Projekt',
         icon: '/img/github.png',
         description: [
-            <p>Jag håller ofta på med olika egna projekt som t.ex spel</p>,
-            <p><a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>
+            <p>Jag håller ofta på med olika egna kod-projekt på fritiden. <br />
+                <a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>,
         ],
-        techTags: [
-            'GitHub',
-        ]
+        techTags: []
     },
     {
         title: 'Gridtorps Pizzeria',
