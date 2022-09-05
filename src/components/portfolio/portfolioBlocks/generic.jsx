@@ -25,7 +25,7 @@ const infoBlocks = [
             <p><a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>
         ],
         techTags: [
-            '',
+            'GitHub',
         ]
     },
     {
