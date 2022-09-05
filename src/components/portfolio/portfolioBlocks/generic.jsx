@@ -17,18 +17,6 @@ const infoBlocks = [
         ]
     },
     {
-        title: 'Github-Projekt',
-        subTitle: 'Projekt',
-        icon: '/img/github.png',
-        description: [
-            <p>Jag håller ofta på med olika egna projekt som t.ex spel</p>,
-            <p><a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>
-        ],
-        techTags: [
-            'GitHub',
-        ]
-    },
-    {
         title: 'InfoSolutions',
         subTitle: 'Anställd - 2019 - 2022',
         icon: '/img/infosolutions.png',
@@ -65,7 +53,18 @@ const infoBlocks = [
             'WordPress'
         ]
     },
-
+    {
+        title: 'Github-Projekt',
+        subTitle: 'Projekt',
+        icon: '/img/github.png',
+        description: [
+            <p>Jag håller ofta på med olika egna projekt som t.ex spel</p>,
+            <p><a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>
+        ],
+        techTags: [
+            'GitHub',
+        ]
+    },
     {
         title: 'Gridtorps Pizzeria',
         subTitle: 'Frilans - 2015',
