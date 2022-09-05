@@ -9,7 +9,23 @@ const infoBlocks = [
             <p>Fullstack utvecklare hos DPJ Workspace</p>
         ],
         techTags: [
-            'PHP'
+            'PHP',
+			'PrestaShop',
+			'JavaScript',
+            'jQuery',
+			'Sass',
+        ]
+    },
+	{
+        title: 'Github-Projekt',
+        subTitle: 'Projekt',
+        icon: '/img/github.png',
+        description: [
+            <p>Jag håller ofta på med olika egna projekt som t.ex spel</p>,
+            <p><a href="https://github.com/carlmarkegang">Besök min GitHub för att se mer</a></p>
+        ],
+        techTags: [
+            '',
         ]
     },
     {
@@ -64,20 +80,6 @@ const infoBlocks = [
         ]
     },
     {
-        title: 'Tetris',
-        subTitle: 'Projekt',
-        icon: '/img/icon3.png',
-        description: [
-            <p>Tetris-spel skrivet i Javascript</p>,
-            <p><a href="https://github.com/carlmarkegang/canvas-tetris">Spela</a></p>
-        ],
-        techTags: [
-            'Canvas',
-            'JavaScript',
-        ]
-    },
-
-    {
         title: 'Markegang.se',
         subTitle: 'Portfolio',
         icon: '/img/icon4.png',
@@ -92,21 +94,6 @@ const infoBlocks = [
             'JavaScript'
         ]
     },
-
-    {
-        title: 'Forum',
-        subTitle: 'Projekt',
-        icon: '/img/icon5.png',
-        description: [
-            <p>Ett forum byggt med MVC-modellen i åtanke.</p>,
-            <p><a href="https://github.com/carlmarkegang/practise-api">Källkod</a></p>
-        ],
-        techTags: [
-            'PHP',
-            'Symfony',
-        ]
-    },
-
     {
         title: 'Svenska Hemag',
         subTitle: 'Slutprojekt',
