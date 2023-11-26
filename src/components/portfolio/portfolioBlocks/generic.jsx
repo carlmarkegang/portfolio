@@ -11,6 +11,7 @@ const infoBlocks = [
         techTags: [
             'PHP',
             'PrestaShop',
+            'Symfony',
             'JavaScript',
             'jQuery',
             'Sass',
